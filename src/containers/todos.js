@@ -3,6 +3,7 @@ import Todos from "../components/todos";
 
 const getTodos = todos => {
   return [
+    ...todos,
     {
       id: 1,
       title: "first task"

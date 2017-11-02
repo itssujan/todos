@@ -6,3 +6,5 @@ const App = () => (
     <Todos />
   </div>
 );
+
+export default App;
